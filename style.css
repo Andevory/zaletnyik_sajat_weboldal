@@ -1,0 +1,19 @@
+body{
+    color:lightsteelblue;
+  }
+
+.bg-fej {
+    background-image: url('img/holmes.png');
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    padding-top: 75px;
+  }
+
+  .bg-fej h1 {
+    color: white;
+    font-size: 500%;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+    font-weight: bold;
+  }
