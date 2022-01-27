@@ -1,5 +1,6 @@
 body{
-    color:lightsteelblue;
+    color:darkgrey;
+    background-color: lightyellow;
   }
 
 .bg-fej {
@@ -17,3 +18,11 @@ body{
     text-decoration: underline overline;
     font-weight: bold;
   }
+
+  .container-fluid, .container{
+    background-color: lemonchiffon;
+  }
+
+h1 {
+  color: rgb(98, 98, 98);
+}
