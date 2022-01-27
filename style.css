@@ -23,7 +23,7 @@ body{
     background-color: lemonchiffon;
   }
 
-.container p, .container h1{
+.container p, .container h1, .titles h2{
     padding: 15px;
   }
 
@@ -39,10 +39,18 @@ h1 {
   margin-left: 25px;
 }
 
+.container ul li {
+  margin-left: 25px;
+}
+
 .img-thumbnail {
   max-width:85%;
 }
 
 p{
   text-align: justify;
+}
+
+.storys li {
+  list-style-type:circle;
 }
