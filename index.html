@@ -13,7 +13,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-
+  <script src="function.js"></script>
   <title>Egy kedvenc emberem</title>
 </head>
 
@@ -43,8 +43,19 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#muzeum">Sherlock Holmes Múzeum</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#tortenetek">Történetek Sherlock Holmes szereplésével</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Történetek Sherlock Holmes szereplésével
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#regenyek">Regények</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#kalandjai">Sherlock Holmes kalandjai</a></li>
+                <li><a class="dropdown-item" href="#emlekiratai">Sherlock Holmes emlékiratai</a></li>
+                <li><a class="dropdown-item" href="#visszater">Sherlock Holmes visszatér</a></li>
+                <li><a class="dropdown-item" href="#meghajlas">Az utolsó meghajlás</a></li>
+                <li><a class="dropdown-item" href="#esetnaploja">Sherlock Holmes esetnaplója</a></li>
+              </ul>
             </li>
         </div>
       </div>
@@ -83,7 +94,7 @@
           title="Holmes skill list">
       </div>
       <div class="col-lg-6">
-        <h1>Képességei</h1>
+        <h1 id="karaktere">Képességei</h1>
         <p>A Bíborvörös dolgozószoba című regény alapján Doktor Watson szerint Sherlock Holmes képességei a következők:
         </p>
         <ol>
@@ -108,7 +119,7 @@
     </div>
     <div class="row ">
       <div class="col-lg-8">
-        <h1>A Sherlock Holmes múzeum</h1>
+        <h1 id="muzeum">A Sherlock Holmes múzeum</h1>
         <p>Londonban, a Baker Street 239 szám alatt található a Sherlock Holmes múzeum. (A 221/B számú lakás tulajdonosa
           nem adta el a házát.) A múzeum tipikus 19. századi lakásnak van berendezve eredeti bútorokkal, képekkel stb.
           Számos Sherlock Holmes-történet szereplőinek viaszbábui örökítik meg a legizgalmasabb jeleneteket. Emellett
@@ -123,10 +134,10 @@
       </div>
     </div>
     <div class="row">
-      <h1>Történetek Sherlock Holmes szereplésével</h1>
+      <h1 id="tortenetek">Történetek Sherlock Holmes szereplésével</h1>
       <div class="row align-items-center">
         <div class="col-lg-4">
-          <img src="img/novels.jpg" alt="Four novels" title="Four novels" class="img-thumbnail">
+          <img src="img/novels.jpg" alt="Four novels" title="Four novels" class="img-thumbnail" id="regenyek">
         </div>
         <div class="col-lg-8 titles">
           <h2>Regények</h2>
@@ -157,12 +168,12 @@
           </ul>
         </div>
         <div class="col-lg-4">
-          <img src="img/adventures.jpg" alt="Four novels" title="Four novels" class="img-thumbnail">
+          <img src="img/adventures.jpg" alt="Four novels" title="Four novels" class="img-thumbnail" id="kalandjai">
         </div>
       </div>
       <div class="row align-items-center">
         <div class="col-lg-4">
-          <img src="img/Memoir.jpg" alt="Four novels" title="Four novels" class="img-thumbnail">
+          <img src="img/Memoir.jpg" alt="Four novels" title="Four novels" class="img-thumbnail" id="emlekiratai">
         </div>
         <div class="col-lg-8 titles">
           <h2>Sherlock Holmes emlékiratai (The Memoirs of Sherlock Holmes – 1893)</h2>
@@ -202,12 +213,12 @@
           </ul>
         </div>
         <div class="col-lg-4">
-          <img src="img/return.jpg" alt="Four novels" title="Four novels" class="img-thumbnail">
+          <img src="img/return.jpg" alt="Four novels" title="Four novels" class="img-thumbnail" id="visszater">
         </div>
       </div>
       <div class="row align-items-center">
         <div class="col-lg-4">
-          <img src="img/last.jpg" alt="Four novels" title="Four novels" class="img-thumbnail">
+          <img src="img/last.jpg" alt="Four novels" title="Four novels" class="img-thumbnail" id="meghajlas">
         </div>
         <div class="col-lg-8 titles">
           <h2>Az utolsó meghajlás (His Last Bow – 1917)</h2>
@@ -245,17 +256,13 @@
           </ul>
         </div>
         <div class="col-lg-4">
-          <img src="img/csebook.jpg" alt="Four novels" title="Four novels" class="img-thumbnail">
+          <img src="img/csebook.jpg" alt="Four novels" title="Four novels" class="img-thumbnail" id="esetnaploja">
         </div>
       </div>
     </div>
-
   </div>
-
-  <footer>
-
-  </footer>
-
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+  <script src="function.js"></script>
 </body>
 
 </html>
