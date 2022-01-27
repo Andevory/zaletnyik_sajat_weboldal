@@ -1,6 +1,6 @@
 body{
-    color:darkgrey;
-    background-color: lightyellow;
+    color:rgb(83, 83, 83);
+    background-color: #e7e6eb;
   }
 
 .bg-fej {
@@ -11,7 +11,7 @@ body{
     padding-top: 75px;
   }
 
-  .bg-fej h1 {
+.bg-fej h1 {
     color: white;
     font-size: 500%;
     text-transform: uppercase;
@@ -19,11 +19,11 @@ body{
     font-weight: bold;
   }
 
-  .container-fluid, .container{
+.container-fluid, .container{
     background-color: lemonchiffon;
   }
 
-  .container p, .container h1{
+.container p, .container h1{
     padding: 15px;
   }
 
@@ -33,4 +33,16 @@ h1 {
 
 .row {
   margin-bottom: 20px;
+}
+
+.container ol li {
+  margin-left: 25px;
+}
+
+.img-thumbnail {
+  max-width:85%;
+}
+
+p{
+  text-align: justify;
 }
